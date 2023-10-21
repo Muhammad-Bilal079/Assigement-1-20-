@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 11.    Write a program to create a calculator for +,-,*, / & % 
+using if statements. Take the following input:
+a. First number
+b. Second number
+c. Operation (+, -, *, /, %)
+Compute & show the calculated result to user. -->
+
+
+    
+<script>
+   let first = prompt(" Enter first  number")
+   let second = prompt(" Enter second number")
+   let operator = prompt(" Enter operator")
+
+   function calculation(first,second,operator){
+
+   }
+   if (operator === "+")
+   {
+    let addition =(+first + +second)
+    document.write("The addition of "+" "+first+" "+"and"+ " "+second+" "+"is:" + addition)
+   }
+   else if(operator === "-")
+   {
+    let subtraction =(+first - +second)
+    document.write("The subtraction of "+" "+first+" "+"and"+ " "+second+" "+"is:" + subtraction)
+   }
+   else if(operator === "*")
+   {
+    let multiply =(+first * +second)
+    document.write("The Multiplication of "+" "+first+" "+"and"+ " "+second+" "+"is:" + multiply)
+   }
+   else if(operator === "/")
+   {
+    let divide =(+first / +second)
+    document.write("The Division of "+" "+first+" "+"and"+ " "+second+" "+"is:" + divide)
+   }
+   else if(operator === "%")
+   {
+    let modulos =(+first % +second)
+    document.write("The modulus of "+" "+first+" "+"and"+ " "+second+" "+"is:" + modulos)
+   }
+   else{
+    document.write("The value is invalid please try again...")
+   }
+</script>
+
+</body>
+</html>

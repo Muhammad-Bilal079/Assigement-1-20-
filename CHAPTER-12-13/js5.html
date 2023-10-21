@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- 5. Write a program that
+a. Store correct password in a JS variable.
+b.  Asks user to enter his/her password
+c.  Validate the two passwords:
+i.    Check if user has entered password. If not, then 
+        give message “ Please enter your password”
+ii.    Check if both passwords are same. If they are 
+        same, show message “Correct! The password you 
+        entered matches the original password”. Show 
+        “Incorrect password” otherwise. -->
+
+    <script>
+let password = "bilal123"
+let correctPassword = prompt("Confirm your password")
+
+ if (correctPassword == password) {
+    document.write("Correct ! The password you entered matches the orignal password")
+}else if (correctPassword != password) {
+    document.write("Incorrect password")
+}else if(!correctPasswords){
+    document.write("Please enter your password")
+}else{
+    document.write("Error")
+}
+
+    </script>
+</body>
+</html>

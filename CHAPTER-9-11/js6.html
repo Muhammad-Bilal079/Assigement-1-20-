@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 7. Guess game:
+Store a secret number (ranging from 1 to 10) in a variable. 
+Prompt user to guess the secret number.
+a. If user guesses the same number, show “Bingo! Correct 
+answer”.
+b. If the guessed number +1 is the secret number, show 
+“Close enough to the correct answer”. -->
+
+
+            <h1>Guess Game</h1>
+
+    <script>
+        var secretNumber = 6
+        var guess = prompt("Enter a number between 1 and 10 and guess will be secet number")
+        if (secretNumber == guess) {
+            document.write("Bingo ! correct answer")
+        }else if (secretNumber == 7){
+            document.write("Close enough to the correct answer")
+        }else{
+            document.write("Wrong answer")
+        }
+    </script>
+</body>
+</html>

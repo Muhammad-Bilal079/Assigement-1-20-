@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+    
+
+    <script>
+    //  1. Write a program that takes a character (number or string) 
+    // in a variable & checks whether the given input is a 
+    // number, uppercase letter or lower case letter. (Hint: ASCII 
+    // codes:- A=65, Z=90, a=97, z=122).       
+
+
+
+            var input = prompt("Enter a character");
+
+            // charcodeAt converts the given character into a ASCII code
+            if((input.charCodeAt(0) >= 65 && input.charCodeAt(0)<=90 ))
+            {
+                console.log(input + " is a Uppercase letter");
+            }
+            else if(input.charCodeAt(0) >= 97 && input.charCodeAt(0)<=122)
+            {
+                console.log(input + " is a lowercase letter");
+            }
+            else if(input.charCodeAt(0) >= 48 && input.charCodeAt(0)<=57)
+            {
+                console.log(input + " is a number");
+            }
+            else
+            {
+                console.log(input + " is not a letter or number");
+            }
+            
+
+    </script>
+</body>
+</html>
